@@ -1,0 +1,30 @@
+{
+  "name": "basic-react-introduction",
+  "version": "1.0.0",
+  "description": "Basic ReactJS Introduction using node/npm and webpack for building and webpack-dev-server  server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --watch"
+  },
+  "keywords": [
+    "Basic",
+    "ReactJS"
+  ],
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "repository": "ssh://git@stash:7999/~soumya.mukherjee/reacttraining.git",
+  "author": "Mukherjee, Soumya @ Cvent",
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.21.0",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
